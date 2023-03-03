@@ -21,6 +21,11 @@
             bindings = <&kp UNDER>;
             key-positions = <19 16>;
         };
+
+        squote_combo {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <28 31>;
+        };
     };
 
     keymap {
