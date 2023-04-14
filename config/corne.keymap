@@ -14,22 +14,32 @@
 
         mins_combo {
             bindings = <&kp MINUS>;
-            key-positions = <4 7>;
+            key-positions = <5 6>;
         };
 
         unds_combo {
             bindings = <&kp UNDER>;
-            key-positions = <19 16>;
+            key-positions = <4 7>;
         };
 
         squote_combo {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <28 31>;
+            key-positions = <16 19>;
         };
 
         new_combo {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <17 18>;
+        };
+
+        new_combo {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <28 31>;
+        };
+
+        new_combo {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <29 30>;
         };
     };
 
