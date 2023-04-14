@@ -26,6 +26,11 @@
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <28 31>;
         };
+
+        new_combo {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
